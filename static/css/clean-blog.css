@@ -92,6 +92,7 @@ img::-moz-selection {
   border-bottom: 1px solid #e9ecef;
   background-color: white;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  z-index: 10;
 }
 
 #mainNav .navbar-brand {
@@ -186,6 +187,7 @@ header.masthead .overlay {
   width: 100%;
   background-color: #212529;
   opacity: 0.5;
+  z-index:5;
 }
 
 header.masthead .page-heading,
